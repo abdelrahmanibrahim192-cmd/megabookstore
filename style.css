@@ -553,5 +553,13 @@ h1{
     width: 90%;
   }
 
+   .icon img{
+    width: 60px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  .image{
+    margin-top: 50px;
+  }
   
 }
