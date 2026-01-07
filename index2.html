@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,
+700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+  <title> Mega Store </title>
+  
+</head>
+<body>
+  <div class="container">
+    <header>
+    <a href="#"><img class="logo" src="../photo/chat.png" alt=""></a>
+    <ul>
+      <a class="ic" href=""><i class="fa-solid fa-cart-arrow-down"></i></a>
+      <li><a href="#Home">تواصل معنا</a></li>
+      
+      <li><a href="#product">الاكثر مبيعا؟</a></li>
+      <li><a href="#all">احنا مين؟</a></li>
+      <li><a href="#">الصفحه الرئيسية</a></li>
+      
+    </ul>
+    </header>
+    <div class="content">
+      <div class="text">
+        <h2>مرحبا بكم في ميجا بوك ستور</h2>
+        <p>في Mega Book Store بنوفر لك كل كتب وملازم الصف الثالث الثانوي في مكان واحد، بأحدث الطبعات وأفضل جودة.
+هدفنا إننا نكون شريكك في رحلة التفوق، ونساعدك توصل لهدفك بسهولة وثقة.<br>
+📚 اختار كتابك<br>
+🎓 ذاكر صح<br>
+🚀 ومع ميجا بوك ستور ابدا طريق النجاح</p>
+      <a href="#">All product</a>
+      </div>
+      <div class="image">
+        <img class="img" src="../photo/chat.png" alt="">
+      </div>
+    </div>
+    <div class="icon">
+      <button class="gs"> < </button>
+      <img class="imb" onclick="phon(this.src); " src="../photo/mosalah.jpeg" alt="">
+      <img class="imb" onclick="phon(this.src); " src="../photo/mohamed-ayman.png" alt="">
+      <img class="imb" onclick="phon(this.src); " src="../photo/may.jpg" alt="">
+      <img class="imb" onclick="phon(this.src); " src="../photo/mahmod-magdy.jpg" alt="">
+      <img class="imb" onclick="phon(this.src); " src="../photo/abdomabod.jpg" alt="">
+      <button class="gs">></button>
+    </div>
+    </div>
+       
+    <section class="about">
+  <h2 id="all">احنا مين؟</h2>
+  <p>
+   نحن مكتبة متخصصة في توفير كتب ومراجع الصف الثالث الثانوي بجودة عالية وأسعار مناسبة لكل طالب.
+هدفنا الأساسي هو مساعدة الطلاب على التفوق من خلال توفير أحدث الكتب الخارجية، المذكرات، والمراجعات النهائية المعتمدة من أفضل المدرسين
+  </p>
+</section>
+
+
+    <h1>تصفح الكتب</h1>
+     <div class="filters">
+  <select>
+    <option>اختار الصف</option>
+    <option>اولي ترم اول</option>
+    <option>تانيه ترم اول</option>
+    <option>تالته ترم اول</option>
+  </select>
+
+  <select>
+    <option>الشعبه</option>
+    <option>عام</option>
+    <option>ازهر</option>
+  </select>
+
+  <select>
+    <option>اختار المدرس</option>
+    <option>خالد صقر</option>
+    <option>محمد ايمن</option>
+    <option>محمد صلاح</option>
+    <option>محمود مجدي</option>
+  </select>
+</div>
+
+    <div class="product">
+
+     <div class="home-product-img">
+      <div  id="product" class="product-img">
+        <img class="im" src="../photo/mohamed-ayman.png" alt="">
+        <p>الثالث الثانوى - التيرم التانى - احياء - د. محمد ايمن</p>
+        <div class="product-footer">
+        <button class="btn0" data-link="product4.html">اطلب الكتاب</button>
+        <p class="pris">240 جنيه</p>
+       </div>
+
+      </div>
+
+       <div class="product-img">
+        <img class="im" src="../photo/mahmod-magdy.jpg" alt="">
+        <p>الفصل الثالث والرابع - الصف الثالث الثانوي - محمود مجدي - فيزياء</p>
+        <div class="product-footer">
+        <button class="btn0" data-link="product4.html">اطلب الكتاب</button>
+        <p class="pris">250 جنيه</p>
+       </div>
+      </div>
+
+       <div class="product-img">
+        <img class="im" src="../photo/sakr.jpeg" alt="">
+        <p>الباب الثالث والرابع - الصف الثالث الثانوي - خالد صقر - كيماء</p>
+        <div class="product-footer">
+        <button class="btn0" data-link="product4.html">اطلب الكتاب</button>
+        <p class="pris">240 جنيه</p>
+       </div>
+      </div>
+
+       <div class="product-img">
+        <img class="im" src="../photo/abdomabod.jpg" alt="">
+        <p>كتاب الفصلين الثالث والرابع- الصف الثالث الثانوي - محمد عبدالمعبود - فيزياء</p>
+        <div class="product-footer">
+        <button class="btn0" data-link="product4.html">اطلب الكتاب</button>
+        <p class="pris">160 جنيه</p>
+       </div>
+      </div>
+
+      
+</div> 
+
+     <div class="home-product-img">
+      <div class="product-img">
+        <img class="im" src="../photo/salahmo.jpg" alt="">
+        <p>مراجعة نهائية الصف الثاني الثانوي - محمد صلاح - اللغة العربية</p>
+        <div class="product-footer">
+        <button class="btn0" data-link="product4.html">غير متاح</button>
+        <p class="pris">100 جنيه</p>
+       </div>
+
+      </div>
+
+       <div class="product-img">
+        <img class="im" src="../photo/hamed.jpeg" alt="">
+        <p>كتاب الوحدات ٤،٥،٦ الصف الثالث الثانوي - عبدالحميد حامد - اللغة الانجليزية</p>
+        <div class="product-footer">
+        <button class="btn0" data-link="product4.html">اطلب الكتاب</button>
+        <p class="pris">240 جنيه</p>
+       </div>
+      </div>
+
+       <div class="product-img">
+        <img class="im" src="../photo/ahmedadel.jpg" alt="">
+        <p>كتاب الترم الاول - الصف الاول الثانوي - احمد عادل - تاريخ</p>
+        <div class="product-footer">
+        <button class="btn0" data-link="product4.html">غير متاح</button>
+        <p class="pris">150 جنيه</p>
+       </div>
+      </div>
+
+       <div class="product-img">
+        <img class="im" src="../photo/ahemdesam.jpeg" alt="">
+        <p>باكدچ السنه كاملة - الصف الثاني الثانوي - احمد عصام - الرياضيات</p>
+        <div class="product-footer">
+        <button class="btn0" data-link="product4.html">اطلب الكتاب</button>
+        <p class="pris">250 جنيه</p>
+       </div>
+      </div>
+
+
+    </div>
+
+     <div class="home-product-img">
+      <div class="product-img">
+        <img class="im" src="../photo/mosalah.jpeg" alt="">
+        <p>الثالث الثانوى - التيرم التانى -لغه عربية - محمد صلاح</p>
+        <div class="product-footer">
+        <button class="btn0" data-link="product4.html">اطلب الكتاب</button>
+        <p class="pris">200 جنيه</p>
+       </div>
+
+      </div>
+
+       <div class="product-img">
+        <img class="im" src="../photo/may.jpg" alt="">
+        <p>مراجعة نهائية الترم الاول للصف الاول الثانوي - مي ماجدي - لغه انجليزية</p>
+        <div class="product-footer">
+        <button class="btn0" data-link="product4.html">غير متاح</button>
+        <p class="pris">100 جنيه</p>
+       </div>
+      </div>
+
+       <div class="product-img">
+        <img class="im" src="../photo/gohary.jpeg" alt="">
+        <p>معسكر ٣/٢ المنهج الصف الثالث الثانوي - احمد الجوهري - احياء</p>
+        <div class="product-footer">
+        <button class="btn0" data-link="product4.html">تصفح المنتج</button>
+        <p class="pris">135 جنيه</p>
+       </div>
+      </div>
+
+       <div class="product-img">
+        <img class="im" src="../photo/waledmohsen.jpg" alt="">
+        <p>كتاب الترم الثاني الصف الثالث الثانوي - وليد محسن - لغة عربية</p>
+        <div class="product-footer">
+        <button class="btn0" data-link="product4.html">تصفح المنتج</button>
+        <p class="pris">280 جنيه</p>
+       </div>
+       
+      </div>
+    
+    </div>
+
+    <div class="textb">
+      <textarea class="text-box" placeholder="محتاج اي  تفاصيل ابعتلنا وهنرد عليك" ></textarea>
+    </div>
+    <div class="textb">
+      <button class="sub" type="button">ارسال</button>
+
+    </div>
+    
+<footer class="footer">
+  <div class="footer-links">
+    <p>© 2025 All Rights Reserved | Mega Book Store</p>
+    <a href="https://www.facebook.com/abdelrahman.ibrahim.907232" class="face1"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="#" class="face2"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_
+    self_edit_contact-info%3BQu6Q9LvXTxOOEB04kLpjBw%3D%3D" class="face1"><i class="fa-brands fa-linkedin-in"></i></a>
+    <p> Dev by | Abdelrahman</p>
+  </div>
+</footer>
+
+
+<script src="main.js"></script>
+</body>
+</html>
